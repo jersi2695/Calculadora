@@ -1,0 +1,172 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/calculator_title"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+           android:id="@+id/operaciones"/>
+
+        <EditText
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ocho"
+                android:id="@+id/ocho"
+                />
+
+
+
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nueve"
+                android:id="@+id/nueve"
+                android:onClick=""/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cinco"
+                android:id="@+id/cinco" />
+
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seis"
+                android:id="@+id/seis" />
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/siete"
+                android:id="@+id/siete" />}
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dos"
+                android:id="@+id/dos" />
+
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tres"
+                android:id="@+id/tres" />
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuatro"
+                android:id="@+id/cuatro" />}
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dividir"
+                android:id="@+id/dividir" />
+
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cero"
+                android:id="@+id/cero" />
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uno"
+                android:id="@+id/uno" />}
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menos"
+                android:id="@+id/menos" />
+
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mas"
+                android:id="@+id/mas" />
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/por"
+                android:id="@+id/por" />}
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AC"
+                android:id="@+id/AC" />
+
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CE"
+                android:id="@+id/CE" />
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igual"
+                android:id="@+id/igual" />}
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>
